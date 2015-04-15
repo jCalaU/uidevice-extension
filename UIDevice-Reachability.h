@@ -7,6 +7,7 @@
  */
 
 #import <UIKit/UIKit.h>
+#import <netinet/in.h>
 
 @interface UIDevice (Reachability)
 + (NSString *) stringFromAddress: (const struct sockaddr *) address;
